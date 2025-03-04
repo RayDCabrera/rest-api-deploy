@@ -117,7 +117,7 @@ app.get('/movies/:id', (req, res) => { //path to regexp
 
 const PORT = process.env.PORT ?? 1234;
 
-app.listen(PORT, () => {
-  console.log(`Server listening on port PORT http://localhost:${PORT}`);
-});
-
+// app.listen(PORT, () => {
+//   console.log(`Server listening on port PORT http://localhost:${PORT}`);
+// });
+module.exports = app;
